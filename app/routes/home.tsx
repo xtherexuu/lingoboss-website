@@ -20,8 +20,33 @@ import BorderLink from "~/components/BorderLink";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "LingoBoss" },
+    {
+      name: "description",
+      content:
+        "Oferujemy usługi dla uczniów, zrobimy za Ciebie sesje Lingos'a, dzięki nam zaoszczędzisz czas i będziesz mieć dobre oceny!",
+    },
+    {
+      name: "keywords",
+      content:
+        "lingos, lingoboss, słówka, sesje, pomoc, lingo, boss, lo1, mlawa, mława, nauka",
+    },
+    {
+      name: "og:title",
+      property: "og:title",
+      content: "LingoBoss",
+    },
+    {
+      name: "og:description",
+      property: "og:description",
+      content:
+        "Oferujemy usługi dla uczniów, zrobimy za Ciebie sesje Lingos'a, dzięki nam zaoszczędzisz czas i będziesz mieć dobre oceny!",
+    },
+    {
+      name: "og:type",
+      property: "og:type",
+      content: "website",
+    },
   ];
 }
 
