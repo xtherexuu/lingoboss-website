@@ -327,7 +327,7 @@ export default function Home() {
           Nasza oferta
         </h2>
         <div className="mt-[40px]">
-          <div className="grid grid-cols-[1fr] 1150:grid-cols-[auto_auto_auto] justify-items-center gap-[20px]">
+          <div className="grid grid-cols-[1fr] 1150:grid-cols-[auto_auto_auto] justify-center justify-items-center gap-[20px] 1440:gap-[50px]">
             <div className="max-w-[350px] 600:w-[350px] h-[350px] flex flex-col justify-evenly rounded-lg border-[2px] p-[15px] border-light hover:border-primary-green transition-all duration-300">
               <div className="flex items-center justify-between">
                 <h3 className="text-base 600:text-lg 800:text-xl font-semibold">
